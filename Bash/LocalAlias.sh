@@ -10,7 +10,7 @@
 
 alias  screen='screen -T xterm-256color'
 
-if [ "x${MYBASH_ECHO_LOADING_BASHRC}y" = "xTRUEy" ] ; then
+if [ "x${MYBASH_ECHO_LOADING_BASHRC_DETAIL}y" = "xTRUEy" ] ; then
   echo  "Loading  ${HOME}/LocalSettings/Bash/LocalAlias.sh : OK"  1>&2
 fi
 

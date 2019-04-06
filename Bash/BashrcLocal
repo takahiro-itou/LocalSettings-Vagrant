@@ -1,0 +1,13 @@
+
+if [ "x${MYBASH_ECHO_LOADING_BASHRC}y" = "xTRUEy" ] ; then
+  echo  "Start  Loading : ${HOME}/LocalSettings/Bash/BashrcLocal"  1>&2
+fi
+
+if [ -f ~/LocalSettings/Bash/LocalAlias.sh ] ; then
+  source  ~/LocalSettings/Bash/LocalAlias.sh
+fi
+
+if [ "x${MYBASH_ECHO_LOADING_BASHRC}y" = "xTRUEy" ] ; then
+  echo  "Loading  ${HOME}/LocalSettings/Bash/BashrcLocal : OK"  1>&2
+fi
+
