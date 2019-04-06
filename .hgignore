@@ -1,0 +1,8 @@
+
+syntax: glob
+dummy
+
+syntax: regexp
+^\.git/
+^\.gitignore$
+
