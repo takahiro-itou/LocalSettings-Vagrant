@@ -1,0 +1,9 @@
+
+[alias]
+gla         = glog  --template ~/Settings/Hg/Templates/map-cmdline.default
+gll         = glog  --template ~/Settings/Hg/Templates/map-cmdline.default  --limit
+glv         = glog  --template ~/Settings/Hg/Templates/map-cmdline.default  -v  --limit
+glva        = glog  --template ~/Settings/Hg/Templates/map-cmdline.default  -v
+glvr        = glog  -v  -r
+gls         = glog  --template 'changeset: {rev}:{node|short}  {branch}  {tags}\nsummary:{desc|firstline}\n\n'
+

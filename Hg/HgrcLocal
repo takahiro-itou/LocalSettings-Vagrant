@@ -1,4 +1,6 @@
 
+%include  ~/LocalSettings/Hg/LocalAlias
+
 [ui]
 editor    =  /usr/bin/vim
 merge     =  /usr/bin/vimdiff
