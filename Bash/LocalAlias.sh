@@ -9,6 +9,7 @@
 ##
 
 alias  screen='screen -T xterm-256color'
+alias  gpg='gpg2'
 
 for  file  in  AliasAddOpts.sh  ; do
   fullpath=${HOME}/LocalSettings/Bash/${file}
