@@ -10,6 +10,8 @@
 
 alias  screen='screen -T xterm-256color'
 alias  gpg='gpg2'
+alias  dvipdfm='/cygdrive/n/TexLive/2018/bin/win32/dvipdfm '
+alias  dvipdfmx='/cygdrive/n/TexLive/2018/bin/win32/dvipdfmx '
 
 for  file  in  AliasAddOpts.sh  ; do
   fullpath=${HOME}/LocalSettings/Bash/${file}
