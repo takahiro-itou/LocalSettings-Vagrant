@@ -2,7 +2,7 @@
 %include  ~/LocalSettings/Hg/LocalAlias
 
 [ui]
-editor    =  /usr/bin/vim
-merge     =  /usr/bin/vimdiff
-username  =  Takahiro Itou
+editor      =  /usr/bin/vim
+merge       =  /usr/bin/vimdiff
+username    =  Takahiro Itou <2526395-takahiro-itou@users.noreply.gitlab.com>
 
