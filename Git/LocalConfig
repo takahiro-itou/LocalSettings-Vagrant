@@ -3,3 +3,6 @@
     name        =  Takahiro Itou
     email       =  6907757+takahiro-itou@users.noreply.github.com
 
+[gpg]
+    program     =  gpg2
+
